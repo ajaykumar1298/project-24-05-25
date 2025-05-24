@@ -88,8 +88,6 @@ function App() {
   return (
     <>
       <Header input={input} setInput={setInput} />
-      {/* <Navbar />
-      <HeroSection /> */}
       <FeatureCards featureData={featureData} />
       <h2 className="text-center text-2xl font-semibold mt-8">
         Browse New Projects in the UAE
